@@ -2,8 +2,8 @@ class StockInfo(object):
     """股票的基本信息
 
     Attributes:
-        code:
-        name:
+        code: 股票代码
+        name: 股票名称
     """
 
     def __init__(self, code):
@@ -15,5 +15,5 @@ class StockInfo(object):
 def main():
     pass
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
